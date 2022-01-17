@@ -1,10 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>JS_Practice</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오피스테일즈</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <script src="app.js"></script>
+    <section id="firstSection">
+        <div class="imageBox">
+            <img id="introImg" src="./src/img/introImg_1024.png" class="image">
+        </div>
+        <header id="header">
+            <h1 id="CompanyTitle">Officetales</h1>
+            <ul id="headerUl">
+                <li id="home">홈</li>
+                <li id="product">제품소개</li>
+                <li id="team">팀원소개</li>
+            </ul>
+        </header>
+
+        <div id="firstSectionTitle">
+            <div class="TitleTextBox">
+                <div class="TitleText">즐거움이 배움이 된다!</div>
+                <div class="TitleText">오피스 테일즈</div>
+            </div>
+            <a href="https://officetales.co.kr" target="_blank">
+                <div id="siteLink">
+                    사이트 이동하기
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <section id="secondSection">
+        <div class="productBackground">
+            <div id="secondSectionTitle">
+                <div class="TitleTextBox">
+                    <div id="productTitleTextBox">
+                        <div class="bubbleBox">제품소개</div>
+                        <div class="productTitleText">이야기 속으로 들어가</div>
+                        <div class="productTitleText">오피스로 만들어가는 나만의 이야기</div>
+                    </div>
+                </div>
+            </div>
+            <div class="imageBox productImageBox" id="">
+                <img class="productImage" src="src/img/productImg_1.png">
+                <div class="textBox">
+                    <div class="productTitleText productText">이야기 속으로 들어가</div>
+                    <div class="productTitleText productText">오피스로 만들어가는 나만의 이야기</div>
+                    <span class="productDetailText">오피스 세계의 친구들은 여러가지 문제들 때문에 곤경에 처해있어요.<br>
+                        해결사 오스의 도움을 받아 오피스 프로그램을 활용하여 친구들의 문제를 해결해 주시겠어요?</span>
+                </div>
+            </div>
+
+            <div class="imageBox productImageBox" id="">
+                <div class="needBack">
+                    <img class="productImage" src="src/img/productImg_2.png">
+                    <div class="textBox">
+                        <div class="productTitleText productText rightText">오피스 프로그램의 비법을 전수받고<br> 퀴즈를 풀며 실력을 길러가요</div>
+                        <!-- <div class="productTitleText productText rightText">실력을 길러가요!</div> -->
+                        <span class="productDetailText rightText">오피스 프로그램 자격증 선생님이 가르쳐주시는<br>비법영상과
+                            깜짝 퀴즈를 통해 프로그램에 대해 쉽게 이해할 수 있어요.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imageBox productImageBox" id="">
+                <div class="needBack">
+                    <img class="productImage" src="src/img/productImg_3.png">
+                    <div class="textBox">
+                        <div class="productTitleText productText">최종 미션을 해결하며<br>
+                            실제 자격증 시험도 대비할 수 있어요!</div>
+                        <!-- <div class="productTitleText productText rightText">실력을 길러가요!</div> -->
+                        <span class="productDetailText">ITQ(오피스 프로그램 자격증 시험)에서 출제된 문제들을 바탕으로 한<br>
+                            최종미션 문제들을 통해 기초 실력뿐만 아니라 자격증 시험 능력도 기를 수 있어요.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="thirdSection">
+        <div class="TitleTextBox">
+            <div class="bubbleBox" id="TeamTitleText">팀원소개</div>
+        </div>
+        <div id="circleCharacter">
+            <div class="rowCircleLine">
+                <div id="sunkiCircle" class="BoxContainer">
+                    <div class="characterBox">
+                        <img src="./src/img/sunki_circle.png" class="circleAvatar">
+                        <span class="circleName">Sunki</span>
+                        <span class="circleDetail">Leader<br>
+                            Front-end Develop</span>
+                    </div>
+                </div>
+
+                <div id="chanCircle" class="BoxContainer">
+                    <div class="characterBox">
+                        <img src="./src/img/chan_circle.png" class="circleAvatar">
+                        <span class="circleName">Chan</span>
+                        <span class="circleDetail">Leader<br>
+                            Front-end Develop</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rowCircleLine">
+                <div id="minwooCircle" class="BoxContainer">
+                    <div class="characterBox">
+                        <img src="./src/img/minwoo_circle.png" class="circleAvatar">
+                        <span class="circleName">Minwoo</span>
+                        <span class="circleDetail">Leader<br>
+                            Front-end Develop</span>
+                    </div>
+                </div>
+
+                <div id="hauenCircle" class="BoxContainer">
+                    <div class="characterBox">
+                        <img src="./src/img/hauen_circle.png" class="circleAvatar">
+                        <span class="circleName">Haeun</span>
+                        <span class="circleDetail">Leader<br>
+                            Front-end Develop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rowBox" id="sunki_rowBox">
+            <img class="boxCharacter" src="./src/img/box_sunki.png">
+            <div class="detailColumnLeft">
+                <img class="nameTag" src="./src/img/nameTag_sunki.png">
+                <div class="rowLine">
+                    <div class="columnLineLeft">
+                        <span class="rightText subTitle">Position</span>
+                        <span class="rightText subTitle">Contact</span>
+                        <span class="rightText subTitle">Skill</span>
+                        <span class="rightText subTitle">Goal</span>
+                    </div>
+                    <div class="columnLineRight">
+                        <span class="leftText description">Instructor / Front-end Develop</span>
+                        <span class="leftText description">sunki@officetales.co.kr</span>
+                        <span class="leftText description">Flutter / JavaScript / Anlaysis </span>
+                        <span id="sunki_goal" class="leftText description goal">우리가 갖고 있는 능력으로 많은<br>
+                            아이들에게 선한 영향력을 주고싶습니다.<br>
+                            오피스 테일즈 프로젝트를 통해 능력을<br>
+                            검증하고 개선해나가고 있습니다.</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="rowBox" id="chan_rowBox">
+            <div class="detailColumnRight">
+                <img class="nameTag" src="./src/img/nameTag_chan.png">
+                <div class="rowLine">
+                    <div class="columnLineLeft">
+                        <span class="rightText subTitle">Position</span>
+                        <span class="rightText subTitle">Contact</span>
+                        <span class="rightText subTitle">Skill</span>
+                        <span class="rightText subTitle">Goal</span>
+                    </div>
+                    <div class="columnLineRight">
+                        <span class="leftText description">Back-end Developer</span>
+                        <span class="leftText description">burningdeep@gmail.com</span>
+                        <span class="leftText description" ;>Mobile App Development</span>
+                        <span id="chan_goal" class="leftText description goal">Using IT and business to make the world a
+                            better place gives my work its meaning.
+                            Seek to help the unprivileged and the neigh-
+                            bors of the third world. In other words, I want
+                            to use my code to change the world.</span>
+                    </div>
+                </div>
+            </div>
+            <img id="chan_box" class="boxCharacter" src="./src/img/box_chan.png">
+
+        </div>
+
+        <div class="rowBox" id="minwoo_rowBox">
+            <img class="boxCharacter" src="./src/img/box_minwoo.png">
+            <div class="detailColumnLeft">
+                <img class="nameTag" src="./src/img/nameTag_minwoo.png">
+                <div class="rowLine">
+                    <div class="columnLineLeft">
+                        <span class="rightText subTitle">Position</span>
+                        <span class="rightText subTitle">Contact</span>
+                        <span class="rightText subTitle">Skill</span>
+                        <span class="rightText subTitle">Goal</span>
+                    </div>
+                    <div class="columnLineRight">
+                        <span class="leftText description" id="minwoo_position">Ux Designer / Front-end Developer</span>
+                        <span class="leftText description">songsee0528@gmail.com</span>
+                        <span class="leftText description">Figma / Flutter / JS / Firebase</span>
+                        <span id="minwoo_goal" class="leftText description goal">
+                            다양한 분야의 프로젝트를 경험해보며
+                            바운더리를 넓히고 싶습니다.
+                            좋은 사람들과 함께 세상에 선한 영향력을 남기고 싶습니다'</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rowBox" id="hauen_rowBox">
+            <div class="detailColumnRight">
+                <img class="nameTag" src="./src/img/nameTag_hauen.png">
+                <div class="rowLine">
+                    <div class="columnLineLeft">
+                        <span class="rightText subTitle">Position</span>
+                        <span class="rightText subTitle">Contact</span>
+                        <span class="rightText subTitle">Skill</span>
+                        <span class="rightText subTitle">Goal</span>
+                    </div>
+                    <div class="columnLineRight">
+                        <span class="leftText description">Character design / Visual design</span>
+                        <span class="leftText description">ho6767104@naver.com</span>
+                        <span class="leftText description">Ai / Ps / Ae</span>
+                        <span id="hauen_goal" class="leftText description goal">주어진 것들에 최선을 다하며 나아갑니다.
+                            오피스테일즈라는 기회를 통해 배움을 지식에만
+                            머물게 하는 것이 아닌 삶과 연결하고자 했습니다.</span>
+                    </div>
+                </div>
+            </div>
+            <img id="hauen_box" class="boxCharacter" src="./src/img/box_hauen.png">
+
+        </div>
+    </section>
+    <script src="./script/index.js"></script>
 </body>
+
 </html>
